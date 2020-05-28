@@ -1,0 +1,19 @@
+
+{
+    "_comment": "The manifest is a json file that specifies how the app looks and acts on devices.For instance, the orientation and theme color of the app can be set.",
+    "name": "Hello World",   
+    "short_name": "Hello",
+    "icons":
+    [
+        {
+          "src": "/img/logo.ico",
+          "sizes": "32x32",
+          "type": "image/ico"
+        }
+    ],
+    "lang": "es-MX",     
+    "start_url": "/index.html", 
+    "display": "standalone",  
+    "background_color": "white",   
+    "theme_color": "black" 
+}
